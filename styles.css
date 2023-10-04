@@ -1,0 +1,217 @@
+body {
+    margin: 0px 15px;
+    font-family: 'Arial', sans-serif;
+    background-color: #dad7cd;
+    color:#3a5a40;
+  }
+  
+  /* Header Styles */
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #dad7cd;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .logo {
+    color: #588157;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo img{
+    width: 75px;
+    height: 75px;
+    display: inline;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #3a5a40;
+    transition: color 0.3s ease-in-out;
+    display: block;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    color: #344e41;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position dropdown below the parent li */
+    left: 0;
+    background-color: #a3b18a;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* Banner Styles */
+.banner {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+ 
+  
+  .slider-container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #3a5a40;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  /* Main Section Styles */
+  main {
+    padding: 20px;
+    margin: 20px;
+    }
+
+  
+.section {
+    background-color: #a3b18a;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #588157;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #344e41;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Add hover effect to sections */
+.section:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+  
+  /* Footer Styles */
+  .sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #dad7cd;
+    text-align: center;
+    border-top: 1px solid #588157;
+    margin-top: -5px;
+  
+  }
+  .sticky-footer a:hover {
+    color: #a3b18a; /* Change link color on hover */
+}
+.practice_tab{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+.asana-box {
+  width: 284px;
+  height: 291px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  display: inline-grid;
+  vertical-align: top;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.asana-image {
+  max-width: 100%;
+  height: auto;
+  
+}
+.why_meditation{
+  font-size:larger;
+  color: #344e41;
+  margin: 20px;
+  
+}
+.why_meditation li{
+  padding: 7px;
+}
+.type_of_medi h2{
+  padding-top: 35px;
+  
+}
